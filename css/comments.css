@@ -1,0 +1,46 @@
+body {
+	font-family: "Helvetiva","Arial", sans-serif
+}
+.comment{
+
+}
+.comment img{
+	width: 30px
+}
+.comment h4 span {
+	color: gray;
+
+}
+.comment button{
+	background-color: magenta;
+	color: white;
+}
+.comment button:hover{
+	/*un par de dos puntos, indica estados, en este caso el de mouse over*/
+	background-color: black;
+	color:white;
+}
+.comment button:focus{
+	background-color: white;
+	color:black;
+}
+.comment button:active{
+	background-color: orange;
+	color: black;
+}
+a:visited{
+	color:red;
+}
+a:hover {
+background-color: black;
+color:purple;
+}
+a:active{
+	background-color: pink
+	color:gray;
+}
+a:focus{
+	background-color: green
+	color:white;
+
+}
